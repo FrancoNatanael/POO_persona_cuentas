@@ -14,7 +14,9 @@ namespace ejercicio
         {
             this.porcentaje = porcentaje;
         }
-
+        /// <summary>
+        /// Valida si el titular esta dentro de los parametros para una cuenta joven
+        /// </summary>
         public bool esTitularValido()
         {
             if(this.titular.MostrarEdad() > 18 && this.titular.MostrarEdad() < 25)
